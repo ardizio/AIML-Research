@@ -24,7 +24,7 @@ In the below article, you will learn how to install and configure Elasticsearch 
 
 The full text queries enable you to search analyzed text fields such as the body of an email. The query string is processed using the same analyzer that was applied to the field during indexing.
 
-[Read more on fulltext](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html#full-text-queries)
+[Read more on Fulltext Search](https://www.elastic.co/guide/en/elasticsearch/reference/current/full-text-queries.html#full-text-queries)
 
 ### Basic search operations with Elasticsearch API
 
@@ -38,4 +38,4 @@ The intervals query uses matching rules, constructed from a small set of definit
 
 The definitions produce sequences of minimal intervals that span terms in a body of text. These intervals can be further combined and filtered by parent sources.
 
-[Read more](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-intervals-query.html)
+[Read more on Full Text Queries and Intervals Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-intervals-query.html)

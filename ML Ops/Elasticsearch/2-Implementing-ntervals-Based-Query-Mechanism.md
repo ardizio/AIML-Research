@@ -6,7 +6,7 @@ Returns documents that match a provided text, number, date or boolean value. The
 
 The match query is the standard query for performing a full-text search, including options for fuzzy matching.
 
-[Read more](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html#query-dsl-match-query)
+[Read more on Match Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-match-query.html#query-dsl-match-query)
 
 ### Intervals query rules
 
@@ -14,10 +14,10 @@ The intervals query uses matching rules, constructed from a small set of definit
 
 The definitions produce sequences of minimal intervals that span terms in a body of text. These intervals can be further combined and filtered by parent sources.
 
-[Read more](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-intervals-query.html)
+[Read more on Intervals query rules](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-intervals-query.html)
 
 ### Implementing Intervals Query Using Filters
 
 A filter in Elasticsearch is all about applying some conditions inside the query that are used to narrow down the matching result set.
 
-[Read more](https://opster.com/guides/elasticsearch/glossary/elasticsearch-filter/)
+[Read more on Implementing Intervals Query Using Filters](https://opster.com/guides/elasticsearch/glossary/elasticsearch-filter/)
