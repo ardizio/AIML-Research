@@ -1,4 +1,4 @@
-## Further reading on implementation
+## Implementation
 
 ### Match Query and its implementation
 
